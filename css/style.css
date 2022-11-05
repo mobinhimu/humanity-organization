@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+section {
+  margin: 20px 0px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* this is header section start */
+.contact {
+  display: none;
+}
+/* this is header section end */
+/* This is nav section start */
+nav {
+  background-color: red;
+}
+.headerLogo {
+  width: 10%;
+}
+
+.headerLogo img {
+  max-width: 100%;
+}
+#menu {
+  display: block;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.navWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navList ul {
+  display: none;
+}
+/* This is nav section end */
+/* This is slider section start */
+section#slider {
+  margin-top: 0px;
+}
+.sliderImg {
+  width: 100%;
+}
+.sliderImg img {
+  width: 100%;
+}
+/* This is slider section end */
+/* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section start */
+.purposeWrap {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.singlePurpose {
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.singlePurpose h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.singlePurpose p {
+  padding-top: 15px;
+  text-align: justify;
+}
+.singlePurpose a {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 3px;
+  padding: 10px 10px;
+  transition-duration: 0.3s;
+}
+.singlePurpose a:hover {
+  background-color: #e6e6e6;
+}
+/* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section end */
+/* this is সদস্যের তালিকা section start */
+#members{
+    background-color: #E9ECEF;
+    padding: 50px 0px;
+}
+#members h1 {
+  text-align: center;
+  padding-bottom: 30px;
+} 
+/* this is সদস্যের তালিকা section end */
+/* this isফটো গ্যালারি section start*/
+#photo h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.photoWrap{
+    display: flex;
+    flex-flow: column wrap;
+}
+.singlePhoto{
+    width: 100%;
+    margin-bottom: 30px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #E9ECEF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.singlePhoto img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* this isফটো গ্যালারি section end*/
