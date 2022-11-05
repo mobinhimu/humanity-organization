@@ -5,6 +5,7 @@
     p{
         font-size: 15px;
     }
+    /* this is ফটো গ্যালারি section start */
     .photoWrap{
         display: flex;
         flex-flow: row wrap;
@@ -14,5 +15,24 @@
         width: 47%;
         margin-bottom: 30px;
     }
-
+    /* this is ফটো গ্যালারি section end */
+    /* this is অনুসন্ধান section start  */
+    .findUsWrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+      .singleFind{
+        width: 48%;
+      }
+      .singleFind iframe{
+        height: 300px;
+      }
+    /* this is অনুসন্ধান section end  */
+    .footWrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
 }
