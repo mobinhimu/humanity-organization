@@ -70,7 +70,10 @@
     /* this is সদস্যের তালিকা section start */
 
     /* this is সদস্যের তালিকা section end */
-
+    /* this is ফটো গ্যালারি section start */
+    #photo h1{
+        font-size: 30px;
+    }
     .photoWrap{
         display: flex;
         flex-flow: row wrap;
@@ -80,5 +83,11 @@
         width: 23%;
         margin-bottom: 30px;
     }
+    /* this is ফটো গ্যালারি section end */
+    /* this is অনুসন্ধান section start  */
+
+
+
+    /* this is অনুসন্ধান section end*/
 
 }
