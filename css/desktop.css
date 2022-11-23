@@ -1,93 +1,93 @@
 @media only screen and (min-width: 992px) {
-    p{
-        font-size: 16px;
-    }
-    
-    .contact{
-        background-color: #007AAF;
-        padding: 10px 0px;
-        display: block;
-    }
-    .contactWrap{
-        display: flex;
-        gap: 15px;
-    }
-    .num a{
-        color: white;
-    }
-    .num span{
-        padding-left: 5px;
-    }
-    .mail a{
-        color: white;
-        font-weight: 500;
-    }
-    .mail span{
-        padding-left: 5px;
-    }
-    /* This is nav section start */
-    .navWrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .headerLogo {
-        width: 8%;
-    }
-    
-    .headerLogo img {
-        max-width: 100%;
-    }
-    
-    .navList ul {
-        list-style-type: none;
-        display: flex;
-        gap: 20px;
-    }
-    
-    .navList ul li a {
-        color: white;
-        font-weight: 700;
-    }
-    #menu{
-        display: none;
-    }
-    /* This is nav section end */
-    /* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section start */
-    .purposeWrap {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-    .singlePurpose{
-        width: 47%;
-    }
-    .singlePurpose h1{
-        font-size: 25px;
-    }
-    /* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section end */
-    /* this is সদস্যের তালিকা section start */
+  .container {
+    max-width: 1100px;
+  }
+  p {
+    font-size: 16px;
+  }
 
-    /* this is সদস্যের তালিকা section end */
-    /* this is ফটো গ্যালারি section start */
-    #photo h1{
-        font-size: 30px;
-    }
-    .photoWrap{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-    .singlePhoto{
-        width: 23%;
-        margin-bottom: 30px;
-    }
-    /* this is ফটো গ্যালারি section end */
-    /* this is অনুসন্ধান section start  */
+  .contact {
+    background-color: #007aaf;
+    padding: 10px 0px;
+    display: block;
+  }
+  .contactWrap {
+    display: flex;
+    gap: 15px;
+  }
+  .num a {
+    color: white;
+  }
+  .num span {
+    padding-left: 5px;
+  }
+  .mail a {
+    color: white;
+    font-weight: 500;
+  }
+  .mail span {
+    padding-left: 5px;
+  }
+  /* This is nav section start */
+  .navWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .headerLogo {
+    width: 8%;
+  }
 
+  .headerLogo img {
+    max-width: 100%;
+  }
 
-    /* this is অনুসন্ধান section end*/
+  .navList ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
 
+  .navList ul li a {
+    color: white;
+    font-weight: 700;
+  }
+  #menu {
+    display: none;
+  }
+  /* This is nav section end */
+  /* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section start */
+  .purposeWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .singlePurpose {
+    width: 47%;
+  }
+  .singlePurpose h1 {
+    font-size: 25px;
+  }
+  /* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section end */
+  /* this is সদস্যের তালিকা section start */
+
+  /* this is সদস্যের তালিকা section end */
+  /* this is ফটো গ্যালারি section start */
+  #photo h1 {
+    font-size: 30px;
+  }
+  .photoWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .singlePhoto {
+    width: 23%;
+    margin-bottom: 30px;
+  }
+  /* this is ফটো গ্যালারি section end */
+  /* this is অনুসন্ধান section start  */
+
+  /* this is অনুসন্ধান section end*/
 }

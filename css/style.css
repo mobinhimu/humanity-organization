@@ -30,7 +30,7 @@ nav {
   background-color: red;
 }
 .headerLogo {
-  width: 10%;
+  max-width: 10%;
 }
 
 .headerLogo img {
@@ -52,15 +52,19 @@ nav {
 }
 /* This is nav section end */
 /* This is slider section start */
-section#slider {
-  margin-top: 0px;
+#slider {
+  background-image: url(../images/slider1.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  margin-top: 0;
 }
-.sliderImg {
+/* .sliderImg {
   width: 100%;
 }
 .sliderImg img {
   width: 100%;
-}
+} */
 /* This is slider section end */
 /* This is আমাদের সম্পর্কে / আমাদের উদ্দেশ্য section start */
 .purposeWrap {
@@ -139,7 +143,7 @@ section#photo {
   padding: 50px 0px;
   margin-bottom: 0px;
 }
-.findUsWrap{
+.findUsWrap {
   display: flex;
   flex-flow: column wrap;
 }
@@ -166,46 +170,46 @@ section#photo {
 .singleFind i {
   padding-right: 8px;
 }
-.social{
+.social {
   display: flex;
   gap: 30px;
 }
-.social a{
+.social a {
   background-color: #717171;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px;
-  width:  30px;
+  width: 30px;
   transition-duration: 0.2s;
 }
-.social a:hover{
-  background-color: #DC4E41;
+.social a:hover {
+  background-color: #dc4e41;
   color: white;
 }
 /* this is অনুসন্ধান section end */
-footer{
+footer {
   background-color: #008732;
   padding: 30px 0px;
   border-top: 1px solid black;
 }
-.footWrap{
+.footWrap {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.singleFoot span{
+.singleFoot span {
   display: block;
   color: white;
   padding-bottom: 10px;
 }
-.singleFoot a{
+.singleFoot a {
   color: rgb(115, 245, 72);
   font-weight: bold;
   padding-left: 10px;
 }
-.singleFoot a:hover{
+.singleFoot a:hover {
   color: rgb(95, 200, 20);
 }
